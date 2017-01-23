@@ -1,0 +1,44 @@
+{
+  "name": "random-word-cli",
+  "version": "0.0.0",
+  "description": "Get a random English word",
+  "license": "MIT",
+  "repository": "sindresorhus/random-word-cli",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "random-word": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "word",
+    "words",
+    "random",
+    "en",
+    "english",
+    "dict",
+    "dictionary"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "random-word": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.6.0",
+    "xo": "*"
+  }
+}
