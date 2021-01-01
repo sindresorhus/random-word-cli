@@ -1,4 +1,4 @@
-# random-word-cli [![Build Status](https://travis-ci.org/sindresorhus/random-word-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/random-word-cli)
+# random-word-cli
 
 > Get a random English word
 
