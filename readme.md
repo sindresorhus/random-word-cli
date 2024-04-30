@@ -2,13 +2,11 @@
 
 > Get a random English word
 
-
 ## Install
 
+```sh
+npm install --global random-word-cli
 ```
-$ npm install --global random-word-cli
-```
-
 
 ## Usage
 
@@ -20,22 +18,15 @@ $ random-word --help
     ferriferous
 ```
 
-
 ## Tip
 
-Use it to generate project/release names:
+Use it to generate project or release names:
 
-```
-$ echo $(random-word)-$(random-word)
+```sh
+echo $(random-word)-$(random-word)
 blacksnake-nautics
 ```
 
-
 ## Related
 
-- [random-word](https://github.com/sindresorhus/random-word) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+- [random-word](https://github.com/sindresorhus/random-word) - API for this package

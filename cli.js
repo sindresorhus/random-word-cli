@@ -1,12 +1,13 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const randomWord = require('random-word');
+import meow from 'meow';
+import randomWord from 'random-word';
 
 meow(`
 	Example
 	  $ random-word
 	  ferriferous
-`);
+`, {
+	importMeta: import.meta,
+});
 
 console.log(randomWord());
